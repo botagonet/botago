@@ -1,0 +1,17 @@
+{
+  "name": "botago",
+  "version": "0.0.1",
+  "description": "Botago CLI bootstrap wrapper",
+  "license": "MIT",
+  "bin": {
+    "botago": "bin/botago.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
