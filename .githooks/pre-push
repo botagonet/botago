@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REQ_NAME="therceman"
+
+name="$(git config user.name || true)"
+if [ "$name" != "$REQ_NAME" ]; then
+  echo "ERROR: git user.name must be '$REQ_NAME', got '$name'" >&2
+  exit 1
+fi
